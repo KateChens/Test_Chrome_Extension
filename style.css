@@ -1,0 +1,23 @@
+.word1, .word2, .word3 {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 10000;
+    font-size: 32px;
+    background-color: azure;
+    color: lightgreen;
+    width: 100px;
+}
+.word1:hover, .word2:hover, .word3:hover {
+    background-color: lightgreen;
+    color: azure;
+}
+.word1 {
+    top: 20px;
+}
+.word2 {
+    top: 60px;
+}
+.word3 {
+    top: 100px;
+}
